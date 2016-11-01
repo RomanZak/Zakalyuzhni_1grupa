@@ -1,0 +1,163 @@
+body{
+    display: block;
+    margin: 0px;
+}
+header{
+    display: block;
+    padding: 20px 0px 20px 253.5px;
+    width: 1111px;
+    margin: 0px 0px 0px 0px;
+    font: 700 35px "Trebuchet MS",Arial,sans-serif;
+    text-shadow: 1px 1px 1px black, 0 0 1em #E2DBDB;
+    color: white;
+    font-size: 2em;
+    float: left;
+    height: 68px;
+    background-image: url("image/nebo.jpg");
+}
+span {
+     color: #FFD700;
+}
+
+span:first-child{
+    color: #ff0000;
+}
+.panel-menu
+{
+    background:#216eb8;
+    height: 40px;
+    display: block;
+    padding-top: 108px;
+}
+.zagolovok-menu {
+    width: 996px;
+    margin: 0px 176.5px 0px 176.5px;
+    float: left;
+
+}
+
+#nav, #nav ul, #nav li {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height:40px;
+}
+#nav ul {
+    position: absolute;
+    z-index: 5;
+    display: none;
+}
+#nav li:hover ul { 
+    display: block;
+}
+#nav li {
+    display: inline-block;
+    text-align: center;
+    padding-top:5px;
+    font-size:17px;
+    font-weight:bold;
+    background-color:rgb(33, 110, 184);
+}
+#nav li:nth-child(1){
+    padding: 5px 41px 9px 41px;
+}
+#nav li:nth-child(2) {
+    padding: 5px 95px 9px 95px;
+}
+#nav li:nth-child(3){
+    padding: 5px 50px 9px 50px;
+}
+#nav li:nth-child(4){
+    padding: 5px 70.66px 9px 74px;
+}
+#nav ul li {
+    display: block;
+    text-align: left;
+}
+
+#nav .right ul {
+    right: 0;
+}
+#nav .right li {
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+#nav a {
+    display: block;
+    padding: 3px 0;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Trebuchet MS",Arial,sans-serif;
+}
+#nav ul a {
+    padding: 3px 15px;
+}
+#nav li:hover {
+    background: rgb(96, 145, 172);
+
+}
+
+section {
+    display: block;
+    margin-right: 176.5px;
+    margin-left: 176.5px;
+    height: 50%;
+    width: 996px;
+    float: left;
+}
+
+.nav {
+    width: 268px;
+    float: left;
+    margin: 0px;
+}
+
+ul.nav li {
+    width: 269px;
+    height: 20px;
+    padding-top: 10px;
+    background-color: #fbf4f4;
+    border: 1px solid #d0cece;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 5px;
+    display: block;
+    margin-top: 5px;
+    margin-left: -20px;
+    opacity: .8;
+    overflow: hidden;
+    font: 12px Arial,"Helvetica Neue",Helvetica,sans-serif;
+}
+
+.nav a {
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0px 0px 0px 10px;
+    color: #1C1C1C;
+}
+.nav a:hover {
+    text-decoration: none;
+    color: rgb(140, 47, 80);
+}
+
+h2 {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    color: #6A5324;
+    font-size: 24px;
+    text-align: left;
+    width: 268px;
+}
+.abzatz {
+    text-align: justify;
+    font: 14px Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 996px;
+    height: 96px;
+    margin: 23px 0px;
+}
